@@ -53,7 +53,7 @@ end
 
 Now we need to initialize with the data we want in the object:
 
-```
+```ruby
   def initialize
     @fidi_html = open("https://s3-us-west-2.amazonaws.com/nokogiri-scrape/index.html")
     @fidi_nokogiri = Nokogiri::HTML(fidi_html)
@@ -63,7 +63,7 @@ We make our fidi_html and fidi_nokogiri variables instance variables using the `
 
 Next, we create methods  for the actions we want our object to have (the things we want it to do!): `get_page_title`, `get_sophies_name`, `list_restaurants_names`, etc. Wrap the code for each of these inside of a method. 
 
-```
+```ruby
 require 'open-uri'
 require 'nokogiri'
 
@@ -93,7 +93,7 @@ end
 
 Then we can call these methods on an instance of the class:
 
-```
+```ruby
 fidi_scrape = Scrape.new
 puts fidi_scrape.get_page_title
 puts fidi_scrape.get_sophies_name
