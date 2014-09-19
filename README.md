@@ -59,9 +59,9 @@ Now we need to initialize with the data we want in the object:
     @fidi_nokogiri = Nokogiri::HTML(fidi_html)
   end
 ```
-We make our fidi_html and fidi_nokogiri variables instance variables using the `@` sign. We do this so that the data in these variables can be read by other methods in the class
+We turn our fidi_html and fidi_nokogiri variables into instance variables by using the `@` sign. We do this so that the data in these variables can be read by other methods in the class
 
-Next, we create methods  for the actions we want our object to have (the things we want it to do!): `get_page_title`, `get_sophies_name`, `list_restaurants_names`, etc. Wrap the code for each of these inside of a method. 
+Next, we create methods for the actions we want our object to have (the things we want it to do!): `get_page_title`, `get_sophies_name`, `list_restaurants_names`, etc. Wrap the code for each of these inside of a method. 
 
 ```ruby
 require 'open-uri'
