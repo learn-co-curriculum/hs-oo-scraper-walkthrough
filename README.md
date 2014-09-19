@@ -83,7 +83,7 @@ class ScrapeRestaurants
   end
 
   def list_restaurants_names
-    restaurants_names = @fidi_nokogiri.css("div.restaurant h2").collect do | name|
+    restaurants_names = @fidi_nokogiri.css("div.restaurant h2").collect do |name|
       name.text
     end
   end
