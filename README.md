@@ -1,9 +1,4 @@
----
-tags: scraping, oo, nokogiri
-languages: ruby
-level: 2
-type: walkthrough
----
+
 
 ## Making your code object oriented
 
