@@ -98,3 +98,5 @@ puts fidi_scrape.list_restaurants_names
 That's all there is to it!
 
 
+
+<a href='https://learn.co/lessons/hs-oo-scraper-walkthrough' data-visibility='hidden'>View this lesson on Learn.co</a>
